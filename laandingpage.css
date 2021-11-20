@@ -1,0 +1,78 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    /* overflow: hidden; */
+    background:url(img.png) no-repeat;
+    height: 800px;
+    font-family: 'Roboto', 'sans-serif';
+}
+h1{
+    color: black;
+    font-size: 7vh;
+    margin-top: 20vh;
+    margin-left: 25vw;
+    opacity: 1;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    /* position: static; */
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+    padding-right: 4vw;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:4vh 1.5vw;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.1vw;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+nav li a:hover{
+    color: rgb(236, 235, 235);
+}
+p{
+    margin-top: 2vh;
+    margin-left: 25vw;
+    line-height: 7vh;
+    opacity: 3;
+    font-size: 4vh;
+}
+#btn {
+    margin-left: 25vw;
+    margin-top: 4vh;
+    width: 20vw;
+    height: 6vh;
+    /* border: 1px solid black; */
+    border-radius: 1vh;
+    background: rgb(243, 242, 242);
+    color: black;
+    padding: 2vw ;
+    padding-top: 2vh;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    font-weight: bolder;
+    opacity: 2;
+}
+#btn:hover{
+    background-color:rgb(173, 173, 173);
+}
+h2{
+    margin-top: 4vh;
+    margin-left: 4vw;
+    font-size:4vh;
+}
